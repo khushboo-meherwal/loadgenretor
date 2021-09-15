@@ -12,7 +12,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 variables:
-  ImageName: 'loadgenrator/microservicedemo:$(Build.BuildId)'
+  ImageName: '173129/microservicedemo:$(Build.BuildId)'
  
 stages:
 - stage: Build
